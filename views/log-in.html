@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="/styles.css">
+  <!-- JS -->
+  <script defer src="/scripts/viewscripts.js"></script>
+  <script defer src="/scripts/createUser.js"></script>
+  <title>Hangry: Log In</title>
+
+</head>
+    <!-- Nav Bar -->
+    <div id="Sidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="/">Home</a>
+      <a href="/posts">User Posts</a>
+    </div>
+    <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+<body id="login">
+
+<form class="box" method="post">
+  <h1>Login/Sign-Up</h1>
+  <input id="email" type="text" name="email" placeholder="Email" required>
+  <input id="password" type="password" name="password" placeholder="Password" required>
+  <input type="forgot" id="forgot">Forgot password?</input>
+  <input id="button" type="submit" name="" value="Login">
+  
+</form>
+
+</body>
+</html>

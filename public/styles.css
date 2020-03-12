@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* --------------------------------------------All------------------------------------------------------- */
+h2 {
+    background-color: black;
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+/* Nav Bar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* --------------------------------------------Login------------------------------------------------------- */
+
+#login {
+    background-image: url("/images/foodbackground.png");
+    background-color: #cccccc;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, serif;
+} 
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.box input[type = "text"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 2px;
+    text-align: center;
+    border: 2px solid white;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+
+#password {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 2px;
+    text-align: center;
+    border: 2px solid white;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+
+.box h1 {
+    color: white;
+    font-weight: 500;
+}
+
+.box input[type = "text"]:focus,.box input [type = "password"]:focus {
+    width: 280px;
+    border-color: gray;
+}
+
+#password:focus {
+    width: 280px;
+    border-color: gray;
+}
+
+.box input[type = "forgot"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border: transparent;
+    padding: 0px 0px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover {
+    background: gray;
+}
+
+/* ------------------------------------------Homepage----------------------------------------------------- */
+
+#homepage {
+    background-color: white;
+    font-family: Montserrat, serif;
+    color: black;
+}
+
+/* Hunger Lever Container/Div */
+.hunger-level {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hangry2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.hangry1:hover {
+    cursor: pointer;
+}
+.hangry2:hover {
+    cursor: pointer;
+}
+.hangry3:hover {
+    cursor: pointer;
+}
+
+/* Food Selection Container */
+.food-options {
+    display: flex;
+    flex-direction: row center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.foodSlides {
+    padding: 10px;
+    margin: auto;
+}
+
+.foodSlides:hover {
+    cursor: pointer;
+}
+
+.food-selection {
+    width: 50%;
+}
+
+.food-btn {
+    width: 10%;
+    padding: 10px;
+    margin-left: inherit;
+    margin-right: inherit;
+}
+
+.restaurants-list {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25px;
+    margin: 0 25%;
+}
+
+/* ------------------------------------------Posts Page-------------------------------------------------- */
+
+#posts {
+    font-family: Montserrat, serif;
+}
+
+.post {
+    color:white;
+    background-color: black;
+    margin: 0 25%;
+}
+
+.userposts {
+    text-align: center;
+} 
+
+.userAddPost {
+    text-align: center;
+    border-width: 100px;
+    border-color: black;
+}
+
+.userAddPost button[type = "submit"] {
+    border: 0;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+#comment
+{
+    width:500px;
+    height: 200px;
+}
+
+.postContainer{
+    text-align: left;
+    margin: 0 34%;
+    align-items: center;
+}
+
+#editButton{
+    border: 0;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#updateComment
+{
+    width:500px;
+    height: 200px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">  
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/styles.css">
+
+    <!-- JS -->
+    <script defer src="/scripts/scripts.js"></script>
+    <script defer src="/scripts/viewscripts.js"></script>
+    <script defer src="/scripts/scripts.js"></script>
+    <title>Project 1: Hangry</title>
+</head>
+<body id="homepage">
+
+    <!-- Nav Bar -->
+    <div id="Sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/">Home</a>
+        <a href="/posts">User Posts</a>
+
+    </div>
+    <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <!-- Hunger Level -->
+    <div class="hunger-level container">
+    <h2 class="hunger-question">How Hungry Are You?</h2>
+        <img src="/images/hunger-lvl/hangry1.png" id="hangry1" class="hangry1" height="100" width="100">
+        <img src="/images/hunger-lvl/hangry2.png" id="hangry2" class="hangry2" height="100" width="100">
+        <img src="/images/hunger-lvl/hangry3.png" id="hangry3" class="hangry3" height="100" width="100">
+    </div>
+
+    <!--Food Options-->
+<section class="food-selection container">
+    <h2>In the mood for...</h2>
+    <div class="food-options">
+        <button class="food-btn w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <img id="mexican" class="foodSlides" src="/images/foods/taco.png" height="150" width="150">
+            <img id="indian" class="foodSlides" src="/images/foods/samosa.png" height="150" width="150">
+            <img id="pizza" class="foodSlides" src="/images/foods/pizza.png" height="150" width="150">
+            <img id="asian" class="foodSlides" src="/images/foods/noodles.png" height="150" width="150"> 
+            <img id="burger" class="foodSlides" src="/images/foods/hamburger.png" height="150" width="150">   
+        <button class="food-btn w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+</section>
+
+<section id="restaurants-container">
+    
+</section>
+
+    <!-- User Feedack Box -->
+
+
+</body>
+</html>

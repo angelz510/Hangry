@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="/styles.css">
+
+  <!-- JS -->
+  <script defer src="/scripts/postScripts.js"></script>
+  <script defer src="/scripts/viewscripts.js"></script>
+  <title>Posts</title>
+</head>
+<body id="posts">
+  <h2>User Posts!</h2>
+  
+  <!-- Nav Bar -->
+  <div id="Sidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/">Home</a>
+    <a href="#">User Posts</a>
+  </div>
+  <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+  <!-- User Posts Feed -->
+  <div class="userposts">
+  </div>
+
+  <h2>Add Post Here</h2>
+  <form class = "userAddPost postContainer">
+    Rating <br>
+    <input id="rating"> <br>
+    Comment <br>
+    <input id="comment"> <br>
+    <button id="button" type="submit">Submit Post</button>
+  </form>
+
+<div class = "userEditPost">
+ 
+</div>
+
+
+
+
+
+
+</body>
+</html>
